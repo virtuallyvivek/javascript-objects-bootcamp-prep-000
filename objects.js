@@ -1,3 +1,3 @@
-function updatePlaylist (object, string, title){
-  return playlist.assign ({}, object, {[string]: title})
+function updatePlaylist (playlist, artistName, songTitle){
+  return playlist.assign ({}, playlist, {[artistName]: songTitle})
 }
